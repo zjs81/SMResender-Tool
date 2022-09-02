@@ -1,0 +1,4 @@
+url=http://sup-zsylvester.st.local
+username=admin
+password=admin
+port=8282
