@@ -95,7 +95,7 @@ with open('creds.txt') as f:
             password = line.split('=')[1]
         elif line.startswith('port'):
             port = line.split('=')[1]
-    #remove newline character from pushbullet_access
+    #remove newline character from creds
     url = url.rstrip('\n')
     username = username.rstrip('\n')
     password = password.rstrip('\n')
